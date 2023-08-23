@@ -66,6 +66,14 @@ namespace ExpendedoraG2_2024_1
             string codigo = MostrarProducto();
             MostrarPrecio(codigo);
         }
+
+        public Expendedora(bool Mantenimiento)
+        {
+            if (Mantenimiento == true)
+             Console.WriteLine("Entrar en modo mantenimiento");
+        }
+
+
         #endregion
     }
 
